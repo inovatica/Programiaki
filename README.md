@@ -2,7 +2,7 @@
 
 (Read this in other languages: [English](README.en.md) ) 
 
-**Przedmiot wdrożenia: Programiaki – nauka podstaw programowania przez zabawę dla dzieci w wieku przedszkolnym.**
+# H1 **Programiaki – nauka programowania przez zabawę dla dzieci w wieku przedszkolnym.**
 
 Zamawiający: Przedszkola
 
