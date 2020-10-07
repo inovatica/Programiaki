@@ -10,12 +10,12 @@ Zamawiający: Przedszkola
 
 _Obserwacje zostały zebrane podczas prowadzenia zajęć z wykorzystaniem projektu lProgramiaki w łódzkich przedszkolach. Osiągnięte cele zawierają się obszarach:_
 
-**Oswojenie programowania**
+## H2 **Zalety oswojania dzieci z programowaniem**
 
  - nauka podstaw programowania poprzez zabawę z wykorzystaniem ruchu;
  -    uzmysłowienie dziecku, czym jest programowanie przez wskazanie jak uzyskać dane zachowanie przez określone czynności np. przygotowanie zestawu poleceń/trasy dla robota (w szerszym kontekście będzie to przypisanie do zmiennej, kolejność wykonywania działań, sekwencyjność, grupowanie wartości, pętla, debugowanie, optymalizacja działań, podział działań na podzadania, przypisywanie czynności, poleceń do obiektów);
 
-**Rozwój miękkich kompetencji**
+### H3 **Rozwój miękkich kompetencji**
 
  - kształcenie umiejętności rozmowy, komunikacji w grupie
    ukierunkowanych m.in. na rozwiązywanie problemów;
@@ -23,14 +23,14 @@ _Obserwacje zostały zebrane podczas prowadzenia zajęć z wykorzystaniem projek
  - kształcenie umiejętności myślenia komputacyjnego, systemowego i desing thinking oraz analitycznego;
 
  of repositories
-**Rozwój umiejętności niezbędnych do nauki**
+### H3 **Rozwój umiejętności niezbędnych do nauki**
 
  - kształcenie umiejętności koncentracji uwagi, zapamiętywanie
    informacji; 
  - kształcenie umiejętności aktywnego słuchania;
  - doświadczanie sukcesu w wyniku wykonania zadania;
 
-**Kontekst i cel:**
+## H2 **Kontekst i cel projektu:**
 
 Programiaki to projekt skierowany do prowadzących nauczanie w wieku przedszkol# Programiakinym. Pozwala on zaznajomić dzieci z podstawami programowania poprzez wciągające gry i zabawy. W ramach projektu przygotowane zostało kompletne rozwiązanie obejmujące:
 
@@ -44,23 +44,23 @@ Projekt Programiaki realizuje podstawowe potrzeby rozwojowe przedszkolaków zwi�
 
 Produkt spełnia kryterium dotyczące narastania trudności i misji wraz z rozwojem umiejętności dziecka. Każda z gier ma kilka poziomów dostosowanych do umiejętności i możliwości zróżnicowanej wiekowo grupy dzieci. Dzięki specjalnie stworzonej aplikacji nauczyciel przedszkolny może zarządzać dostępem dziecka do odpowiednich poziomów. To nauczyciel decyduje, które poziomy gier włączyć, bowiem, znając swoją grupę dzieci, wie, jakimi umiejętnościami dysponują jego wychowankowie.
 
-**Realizacja narzędzi**
+### H3 **Realizacja narzędzi**
 
-**Stolik multimedialny**
+### H3 **Stolik multimedialny**
 
 Stolik multimedialny to interaktywne multimedialne innowacyjne stoisko prezentacyjne z funkcją nauki programowania przez interakcje z tagami RFID. W stole wbudowano czytniki RFID odczytujące dane z klocków. Gry na stole multimedialnym są tematycznie powiązane z zagadnieniami pojawiającymi się na zajęciach, stopniowo kształcą umiejętności programistyczne od najprostszych gier, w ramach których dzieci uczą się przypisywania obiektów do zmiennej, po coraz trudniejsze, np. sekwencje, pętle, pobieranie i zwracanie danych, aż do złożonej analizy problemu koniecznej do wyboru lepszej opcji w danej grze.
 
-**Klocki**# Programiaki
+### H3 **Klocki**# Programiaki
 
 Na bazie grafik wykorzystywanych w grach wydruki 3D, we wnętrzu których znajdują się tagi
 
 RFID. Klocki swoim wyglądem reprezentują zwierzęta, kierunki, karty mnożnika etc. Ich celem jest zmniejszenie poziomu abstrakcji przy nauce programowania i, dodatkowo, ułatwienie zrealizowania przez dzieci zadań przewidzianych np. w grze ZOO, która wymaga od dzieci umiejętności identyfikowania ze słuchu dźwięków zwierząt.# Programiaki
 
-**Robot**
+### H3 **Robot**
 
 Prototyp własnej konstrukcji zbudowany na bazie LEGO Mindstorm. Robot ma za zadanie wykonywać polecenia zaprogramowane przez kod stworzony przez dzieci za pomocą klocków z tagami RFID ułożonymi na stole multimedialnym.
 
-**Software**
+### H3 **Software**
 
 W ramach projektu zostało przygotowane oprogramowanie odpowiedzialne za działanie całego zestawu i umożliwiające prowadzenie zajęć.
 
@@ -98,7 +98,7 @@ KOD ZADANIA	KODY_ODPOWIEDZI	OPIS
 78	int	Zwraca jeden numer z ciągu znaków i ustawia index na koleną pozycję.
 
 
-**Frontend:**
+### H3 **Frontend:**
 
  - Aplikacja nauczyciela.# Programiaki# Programiaki
  - Aplikacja nauczyciela
@@ -133,7 +133,7 @@ Przygotowany interfejs pełni różne role, np.:
 
 • programowanie w zakresie kolejnych ruchów robota czy pszczółki,
 
-# Programiaki• rysowanie kształtów,
+### H3 # Programiaki• rysowanie kształtów,
 
 • grupowanie kształtów czy układanie puzzli,
 
@@ -142,9 +142,9 @@ Przygotowany interfejs pełni różne role, np.:
 Dedykowany jest dzieciom z różnych grup wiekowych, 3-, 4-, 5-, 6-latków, które uznały produkt za atrakcyjny.
 
 
-**Przykłady gier:**
+### H3 **Przykłady gier:**
 
-Kolory i Kształty (Drag&Drop)
+#### H4 Kolory i Kształty (Drag&Drop)
 
 Part 1 - Kolory
 
@@ -214,7 +214,7 @@ Part 3 – Kolory i Kształty
 
 10. Posortuj niebieski kwadrat, czerwony trójkąt, zielone koło, zielony kwadrat, niebieski trójkąt, czerwone koło (dostępne 3 typy pól do upuszczenia) – segregowanie wielu danych, analiza wielu problemów w jednym zadaniu.
 # Programiaki
-Gra Pszczółka cz.1:
+#### H4 Gra Pszczółka cz.1:
 
 Dotarcie do celu poprzez użycie:
 
@@ -277,7 +277,7 @@ Dotarcie do celu poprzez użycie:
 13. strzałki we wszystkich kierunkach poziom z pająkiem na alternatywnej drodze – sekwencje, pętle, pobieranie danych z różnych miejsc, zwracanie danych w różne miejsca, analiza problemu + wybór lepszej opcji.
 
 
-**Realizacja dydaktyka**
+### H3 **Realizacja dydaktyka**
 
 Konstrukcja zajęć jest elastyczna. Pozwala łączyć innowacyjną metodę nauczania programowania wykorzystującą multimedialny stół oraz gry i zabawy ruchowe. Oto jej główne założenia:
 
@@ -294,12 +294,12 @@ następnie aktywności stolikowe i dywanowe, zabawy ruchowe, dalej: zabawa progr
 
 • czas zajęć nie jest ściśle określony, ich długość jest uzależniona od wieku i możliwości dzieci (ok. 45-60min.);
 
-**Karty pracy**
+### H3 **Karty pracy**
 
 Karty zostały skonstruowane tak, by kształciły sprawność ręki czy koordynację ręka-oko i mogły je wykonywać zarówno 3-latki, jak i 6-latki. Są to: labirynty, kolorowanie elementów zgodnie z wytycznymi w zadaniu, zapisywanie kodu zgodnego ze sposobem, w jaki zostały pokolorowane elementy rysunku. Zadania umieszczone w kartach pracy są kompatybilne z zadaniami wykonywanymi na macie, a ich celem jest kształcenie podstawowych umiejętności programistycznych, np. kolejność wykonywania działań, grupowanie wartości, przypisywanie czynności do obiektów, podejmowanie decyzji w zakresie kierunku realizacji wyznaczonego celu.
 
 Do wykorzystania w programie jest 37 kart pracy zróżnicowanych pod względem trudności zadań do wykonania. Dodatkowo w programie znajdują się karty pracy nr.38-57, są to kolorowanki z obrazami zwierząt pojawiających się w grach na stole multimedialnym.
 
-**Podsumowanie**
+## H2 **Podsumowanie**
 
 Podczas badań przeprowadzonych w warunkach operacyjnych (przedszkola) potwierdzono, że opracowana metodyka nauczania programowania i związana z nią pomoc dydaktyczna, jaką jest stolik multimedialny, jest efektywną realizacją kształcenia kompetencji programistycznych u dzieci w wieku przedszkolnym. Testy, w którym wzięły udział dzieci w różnym wieku, wykazały, że dzięki wykorzystaniu technologii TUI (ang. Tangible User Interface)  i klocków nasz produkt nie wymaga od użytkownika doświadczenia z podobną technologią. Programiaki są rozwiązaniem angażującym dzieci do nauki, dającym pozytywne wzmocnienie i są cenną pomocą dydaktyczną dla prowadzących zajęcia.
