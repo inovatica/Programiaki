@@ -1,24 +1,25 @@
 **Programiaki EN**
 
-The subject of implementation: Programmers - learning the basics of programming through play for preschool children.
+# H1 Programmers - learning the basics of programming through play for preschool children.
 Customer: Kindergartens
 
 **Effects**
-The observations were collected during classes using the lProgramiaki project in kindergartens in Łódź. The achieved goals include the following areas:
-Getting familiar with programming
+The observations were collected during classes using the lProgramiaki project in kindergartens in Łódź. 
+
+## H2 Advatages of getting kieds familiar with programming:
 • learning the basics of programming through play with the use of movement;
 • making the child aware of what programming is by showing how to get a given behavior through specific activities, e.g. preparing a set of commands / routes for a robot (in a broader context, it will be an assignment to a variable, the sequence of actions, sequencing, grouping values, looping, debugging, optimization of activities, division of actions into subtasks, assigning actions, commands to objects);
-Development of soft skills
+### H3 Development of soft skills
 • training the skills of conversation, communication in a group directed, inter alia, for problem solving;
 • educating the ability to express one's feelings, opinions and thoughts;
 • developing computational, systemic, design thinking and analytical thinking skills;
 
-Development of the skills necessary for learning
+### H3 Development of the skills necessary for learning
 • developing the ability to concentrate attention, remembering information;
 • training active listening skills;
 • experiencing success as a result of completing a task;
 
-**Context and purpose:**
+## H2 **Context and purpose:**
 Programiaki is a project aimed at pre-school teachers. It allows children to acquaint children with the basics of programming through addictive games and activities. As part of the project, a complete solution was prepared, including:
 • class scenarios in line with the material that a child should learn at a given level of development
 • didactic tools such as a multimedia table, programmable robot, mats, and blocks
@@ -27,18 +28,18 @@ Programiaki is a project aimed at pre-school teachers. It allows children to acq
 The Programiaki project meets the basic developmental needs of preschoolers related to movement, experiencing the world through the senses, developing cognitive skills, and learning through play. It is based on the assumption that learning to program should be collaborative, i.e. collaborative learning, and adapted to the child's development level. The prepared solution allows you to move away from thinking about programming as a one-on-one interaction to learning programming in the context of activities that can support teamwork. When children program together, they take part not only in collaboration and group work but also in learning to properly shape interpersonal relationships. This is associated with the development of the ability to move around in society and the formation of social patterns that are necessary for negotiation, problem-solving, sharing emotions, or work.
 The product meets the criterion of increasing difficulties and missions with the development of the child's skills. Each of the games has several levels adapted to the skills and abilities of a diverse age group of children. Thanks to a specially created application, the preschool teacher can manage the child's access to the appropriate levels. It is the teacher who decides which game levels to include, because knowing his group of children, he knows the skills of his pupils.
 
-**Implementation of tools**
-**Multimedia table**
+### H3 **Implementation of tools**
+### H3 **Multimedia table**
 The multimedia table is an interactive multimedia innovative presentation stand with the function of learning programming by interacting with RFID tags. The table has built-in RFID readers that read data from the blocks. Games on the multimedia table are thematically related to the issues arising in the classroom, gradually educate programming skills from the simplest games in which children learn to assign objects to a variable, to more and more difficult ones, e.g. sequences, loops, retrieving and returning data, to complex problem analysis necessary to choose a better option in a given game.
 
-**Blocks**
+### H3 **Blocks**
 Based on graphics used in games, 3D prints with tags inside
 RFID. The appearance of the blocks represents animals, directions, multiplier cards etc. They aim to reduce the level of abstraction while learning programming and, additionally, to facilitate the fulfillment by children of tasks provided for, for example, in the zoo game, which requires children to be able to identify animal sounds by hearing.
 
-**Robot**
+### H3 **Robot**
 Own-made prototype built based on LEGO Mindstorm. The robot is designed to execute commands programmed by a code created by children using blocks with RFID tags placed on a multimedia table.
 
-**Software**
+### H3 **Software**
 As part of the project, the software responsible for the operation of the entire set and for conducting classes was prepared.
 The backend consists of:
 1.1 Application running on Arduino
@@ -68,11 +69,11 @@ JOB CODE
 76	int	After reading the card, they have different lengths - it returns the length of the card number.
 78	int	Returns one number from a string and sets index to the next position.
 
-**Frontend:**
+### H3 **Frontend:**
 • Teacher's app.
 • Application with games (for the multimedia table).
 
-Teacher's app
+### H3 Teacher's app
 To supervise the process of learning programming for preschool children, an application for teachers was created that performs the following tasks:
 
 • Logging in / out of the group supervisor
@@ -87,7 +88,7 @@ Selecting the children to play the game (to award gamification points later)
 Approval of the launch of a level in the game
 • Support for approving gamification points.
 
-Application with games (for multimedia table).
+### H3 Application with games (for multimedia table).
 The prepared interface plays various roles, e.g .:
 • programming in terms of subsequent robot or bee movements,
 • drawing shapes,
@@ -95,8 +96,8 @@ The prepared interface plays various roles, e.g .:
 • playing sounds.
 It is dedicated to children of various age groups, 3-, 4-, 5-, 6-year-olds who found the product attractive.
 
-Game examples:
-Colors and Shapes (Drag & Drop)
+### H3 Game examples:
+#### H4 Colors and Shapes (Drag & Drop)
 
 Part 1 - Colors
 1. Drag and drop the red square onto the red field (only the red drop field) - learning how to use TUI + sorting data.
@@ -135,7 +136,7 @@ Part 3 - Colors and Shapes
 9. Sort blue square, red triangle, and green circle (3 types of drop-down fields available) - sort multiple data, analyze multiple problems in one task.
 10. Sort blue square, red triangle, green circle, green square, blue triangle, red circle (3 field types available to drop) - sort multiple data, analyze multiple problems in one task.
 
-Bee game part 1:
+#### H4 Bee game part 1:
 Reach your destination by using:
 1. left arrows - sequences, loops;
 2. right arrows - sequences, loops;
@@ -152,7 +153,7 @@ Reach your destination by using:
 13. "up", "right" and "down" arrows level with a spider on an alternative path - sequences, loops, problem analysis + choosing a better option;
 14. "up", "right" and "down" arrows level with a spider on an alternative path - sequences, loops, problem analysis (2 wrong paths) + choosing a better option;
 
-The Bee 2:
+#### H4 The Bee 2:
 Reach your destination by using:
 1. "left" - sequences, loops, data retrieval, data return;
 2. right arrows - sequences, loops, data retrieval, data return;
@@ -168,7 +169,7 @@ Reach your destination by using:
 12. arrows in all directions level with a spider on an alternative path sequences, loops, getting data from different places, returning data to different places, problem analysis + choosing a better option;
 13. arrows in all directions level with a spider on an alternative path - sequences, loops, getting data from different places, returning data to different places, problem analysis + choosing a better option.
 
-**Implementation of didactics**
+### H3 **Implementation of didactics**
 The structure of the classes is flexible. It allows you to combine an innovative method of teaching programming using a multimedia table as well as motor games and activities. Here are its main assumptions:
 • in the lesson scenarios, introductory fun appears at the beginning,
 then the table and carpet activities, movement games, further: programming games, teaching basic skills, and ending games;
@@ -179,9 +180,9 @@ then the table and carpet activities, movement games, further: programming games
 previous classes. The proposed programming games can be changed depending on what the children liked, at what age preschoolers are, what was difficult - what you need to come back to. Among the physical activities, there are new and known to children. Ready scenarios can be modified;
 • the time of classes is not strictly defined, their length depends on the age and abilities of the children (approx. 45-60 minutes);
 
-**Work cards**
+### H3 **Work cards**
 The cards have been designed to develop hand dexterity or hand-eye coordination and can be performed by both 3-year-olds and 6-year-olds. These are labyrinths, coloring elements according to the guidelines in the task, saving the code according to how the elements of the drawing have been colored. The tasks included in worksheets are compatible with the tasks performed on the mat, and they aim to educate basic programming skills, e.g. the sequence of actions, grouping values, assigning activities to objects, making decisions in the direction of achieving the set goal.
 There are 37 worksheets for use in the program, varying in terms of the difficulty of the tasks to be performed. Besides, the program includes worksheets No. 38-57, these are coloring pages with pictures of animals appearing in games on the multimedia table.
 
-**Summary**
+## H2 **Summary**
 During the research conducted in operating conditions (kindergartens), it was confirmed that the developed methodology of teaching programming and the associated didactic aid, which is a multimedia table, is an effective implementation of programming competences in preschool children. Tests carried out by children of all ages showed that thanks to the use of TUI (Tangible User Interface) technology and blocks, our product does not require experience with similar technology from the user. Programmers are a solution that engages children in learning, gives positive reinforcement, and is a valuable didactic aid for the teachers.
