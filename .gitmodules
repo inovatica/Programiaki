@@ -1,0 +1,15 @@
+[submodule "Programiaki-TableCoreApplications"]
+	path = Programiaki-TableCoreApplications
+	url = https://github.com/inovatica/Programiaki-TableCoreApplications.git
+[submodule "Programiaki-TableApp"]
+	path = Programiaki-TableApp
+	url = https://github.com/inovatica/Programiaki-TableApp.git
+[submodule "Programiaki-Cubes"]
+	path = Programiaki-Cubes
+	url = https://github.com/inovatica/Programiaki-Cubes.git
+[submodule "Programiaki-Babysitter-panel"]
+	path = Programiaki-Babysitter-panel
+	url = https://github.com/inovatica/Programiaki-Babysitter-panel.git
+[submodule "Programiaki-API"]
+	path = Programiaki-API
+	url = https://github.com/inovatica/Programiaki-API.git
